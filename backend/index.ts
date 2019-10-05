@@ -9,6 +9,7 @@ let db: Db;
 let users: Collection<IUser>;
 let biere: Collection<IBier>;
 
+app.use(express.static("build"));
 app.get("/_api", (req, res) => {
   res.send("Hello World");
 });
