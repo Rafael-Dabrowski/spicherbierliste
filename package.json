@@ -13,7 +13,7 @@
   "author": "Rafael Dabrowski",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "mongodb": "^3.3.2",
     "@types/react": "16.8.15",
     "@types/react-dom": "16.8.4",
